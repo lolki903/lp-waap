@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 3% 7%;
+  background-color: #f4f4f4;
+  position: relative;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  width: 80%;
+}
+.header div:first-child {
+  width: 100%;
+}
+.header div:first-child img {
+  width: 15%;
+}
+.header a {
+  font-size: 1.2rem;
+  color: #333;
+  text-decoration: none;
+}
+.header .formulaire {
+  background: #f0d054;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+nav {
+  width: 50%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.background-green {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  width: auto;
+}
+section {
+  margin-top: 10%;
+  color: #583522;
+  display: flex;
+  justify-content: space-between;
+}
+section h1 {
+  font-family: Signika;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 73.92px;
+  text-align: left;
+}
+.section-header img {
+    transform: rotate(180deg);
+}
+.banner {
+  width: 50%;
+}
+.banner h2 {
+  font-family: Signika;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 49.28px;
+  text-align: left;
+}
+.banner p {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34.68px;
+  text-align: left;
+}
+.flex-banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.card-number p:first-child {
+  color: #f0d054;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 28px;
+  background: rgba(232, 232, 232, 0.682);
+  width: 26%;
+}
+.card-number p:last-child {
+  width: 80%;
+  font-family: Jost;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27.8px;
+  text-align: left;
+}
+.button-brown {
+  background: #583522;
+  color: #ffffff;
+  width: 282px;
+  height: 50px;
+  border-radius: 27px;
+  margin-top: 20px;
+}
+.list-section2{
+    font-family: Jost;
+font-size: 20px;
+font-weight: 400;
+line-height: 34.68px;
+text-align: left;
+margin: 0;
+padding: 0;
+}
+.list-section2 li {
+  padding: 20px 0;
+  list-style: none;
+}
+.section2 p {
+  font-family: Jost;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34.68px;
+  text-align: left;
+
+}
