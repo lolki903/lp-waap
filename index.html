@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <header class="header">
         <div>
             <img src="img/logo.svg" alt="logo">
         </div>
-            <nav class="nav-bar">
-                <ul>
-                    <a href="#">Notre projet</a>
-                    <a href="#">Interviews</a>
-                    <a href="#" class="formulaire">Formulaire</a>
-                </ul>
-            </nav>
+        <nav class="nav-bar">
+            <ul>
+                <a href="#">Notre projet</a>
+                <a href="#">Interviews</a>
+                <a href="#" class="formulaire">Formulaire</a>
+            </ul>
+        </nav>
     </header>
     <main>
         <section class="section-header">
             <div class="banner">
                 <h1>Entrez dans le coeur de notre projet</h1>
                 <h2>Une plateforme, mille vie sauvées !</h2>
-                <p>Nous voulons redonner une valeur affective sur la vision des animaux pour qu’ils soient intégrés comme des êtres vivants à part entière.</p>
+                <p>Nous voulons redonner une valeur affective sur la vision des animaux pour qu’ils soient intégrés
+                    comme des êtres vivants à part entière.</p>
                 <div class="flex-banner">
                     <div class="card-number">
                         <p>16 498</p>
@@ -37,7 +40,7 @@
                 </div>
                 <button class="button-brown">Intéresser par notre projet</button>
             </div>
-                <div>
+            <div>
                 <img src="img/illustration_pets.svg" alt="illustration">
             </div>
         </section>
@@ -48,23 +51,88 @@
             <div>
                 <img src="img/platform.svg" alt="illustration">
             </div>
-            <div>
+            <div class="block-project">
                 <h1>Notre projet</h1>
                 <div>
                     <p>L’objectif, simplifier l'adoption et la gestion des refuges animaliers</p>
                     <ul class="list-section2">
-                        <li><strong>Le problème,</strong> les refuges animaliers sont débordés, manquent de temps et d'outils pour gérer efficacement les tâches administratives et les adoptions.</li>
-                        <li><strong>La solution,</strong> création de Waap, une plateforme qui digitalise la gestion des refuges, automatise les tâches et facilite l'adoption responsable.</li>
-                        <li><strong>L’impact,</strong> Waap contribue à une meilleure protection des animaux et à la réduction du nombre d'abandons.</li>
+                        <li><strong>Le problème,</strong> les refuges animaliers sont débordés, manquent de temps et
+                            d'outils pour gérer efficacement les tâches administratives et les adoptions.</li>
+                        <li><strong>La solution,</strong> création de Waap, une plateforme qui digitalise la gestion des
+                            refuges, automatise les tâches et facilite l'adoption responsable.</li>
+                        <li><strong>L’impact,</strong> Waap contribue à une meilleure protection des animaux et à la
+                            réduction du nombre d'abandons.</li>
                     </ul>
                 </div>
-               <div>
-                     <img src="img/block_grey.svg" alt="">
-                     <img src="img/block_grey.svg" alt="">
-                     <img src="img/block_grey.svg" alt="">
-                     <img src="img/block_grey.svg" alt="">
-               </div>
+                <div class="group-box-grey">
+                    <img src="img/block_grey.svg" alt="">
+                    <img src="img/block_grey.svg" alt="">
+                    <img src="img/block_grey.svg" alt="">
+                    <img src="img/block_grey.svg" alt="">
+                </div>
             </div>
         </section>
+        <section class="phase">
+            <div class="flex-phase">
+                <img src="img/phase.svg" alt="">
+                <!-- <ul>
+                    <li>1.Phase de reflexion</li>
+                    <li>2.Phase d’interviews</li>
+                    <li>3.Phase analyses des interviews</li>
+                    <li>4.Phase de réalisation</li>
+                    <li>5.Phase tests utilisateurs</li>
+                </ul> -->
+            </div>
+            <div class="phase-text">
+                <h1>Les ateliers et les interviews</h1>
+                <p>L'amour des animaux est une valeur importante pour notre équipe. Nous sommes convaincus que tous les
+                    animaux méritent d'être aimés et choyés. C'est pourquoi nous avons décidé de nous engager dans la
+                    cause de la protection animale.
+
+                    Nous avons constaté que les refuges pour animaux sont souvent saturés, et que les animaux qui y
+                    vivent peuvent y passer des mois, voire des années, avant d'être adoptés. Nous avons donc créé une
+                    plateforme en ligne qui facilite l'adoption d'animaux.</p>
+            </div>
+        </section>
+        <section class="section-form">
+            <form action="js/sendform.js" method="post">
+                <h2>Intéressez par notre projet</h2>
+                <div class="first-input">
+                    <input id="name" type="text" placeholder="Nom prénom">
+                    <input id="city" type="text" placeholder="Ville">
+                </div>
+                <div class="second-input">
+                    <input id="email" type="email" placeholder="Email">
+                </div>
+                <select name="progress" id="">
+                    <option value="1">Je souhaite en savoir plus sur le projet</option>
+                    <option value="2">Je souhaite participer à l'aventure</option>
+                    <option default value="3">Je souhaite être informé des avancées du projet</option>
+                </select>
+                <div>
+                    <input type="submit" class="">Envoyer</button>
+                    <img src="img/arrow-icon.svg" alt="Envoyer ma demande">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="column-1">
+            <img src="img/logo-white.svg" alt="logo">
+            <p>Nous voulons redonner une valeur affective sur la vision des animaux pour qu’ils soient intégrés comme
+                des êtres vivants à part entière.</p>
+        </div>
+        <div class="footer-nav">
+            <a href="#">Accueil</a>
+            <ul class="order-object">
+                <a href="#">Notre projet</a>
+                <a href="#">Interviews</a>
+                <a href="#">Formulaire</a>
+            </ul>
+            <a href="#">Interviews</a>
+            <a href="#" class="formulaire">Formulaire</a>
+        </div>
+        </div>
 </body>
+
 </html>
